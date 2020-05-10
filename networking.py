@@ -7,7 +7,7 @@ import messageBox
 BEARER_TOKEN = ''
 URL = 'https://api-quiz.hype.space/shows/now?type='
 HEADERS = {
-    'Authorization': f'Bearer {BEARER_TOKEN}',
+    'Authorization': f'Bearer {eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjI2Njc5NjI5LCJ1c2VybmFtZSI6IkFMRVg0NjYzIiwiYXZhdGFyVXJsIjoiZ3M6Ly9jZG4tcHJvZC1oeXBlLXNwYWNlL2RhL2dyZWVuLnBuZyIsInRva2VuIjpudWxsLCJyb2xlcyI6W10sImNsaWVudCI6IiIsImd1ZXN0SWQiOm51bGwsInYiOjEsImlhdCI6MTU4OTA4NDEzMiwiZXhwIjoxNTk2ODYwMTMyLCJpc3MiOiJoeXBlcXVpei8xIn0.R64q87O8LxW1m-vnvo0TWSJl2netNDMVAzD87RjwjB0}',
     'x-hq-client': 'Android/1.3.0'
 }
 
